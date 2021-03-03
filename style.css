@@ -129,7 +129,11 @@ button.search-btn {
 }
 
 .menu-container a {
-     text-decoration: none;
+    color: #222222;
+    text-decoration: none;
+}
+.menu-container a:hover {
+    color: #f16d7f;
 }
 
 .content {
