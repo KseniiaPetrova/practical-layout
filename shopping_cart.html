@@ -710,8 +710,159 @@
         </div>
     </nav>
 
-    <main>
+    <main class="shopping_cart-content">
+        <section class="product_section">
+            <div class="header-section">
+                <h4 class="title__section">Product Details</h4>
+                <ul class="header-section-list">
+                    <li class="title__section title__section_list">unite Price</li>
+                    <li class="title__section title__section_list">Quantity</li>
+                    <li class="title__section title__section_list">shipping</li>
+                    <li class="title__section title__section_list">Subtotal</li>
+                    <li class="title__section title__section_list">ACTION</li>
+                </ul>
+            </div>
+            <div class="shipping-separator shipping-separator_shopping_cart_top"></div>
 
+            <div class="shopping_cards">
+                <div class="shopping_card_content">
+                    <div class="shopping_card_content_img">
+                        <img src="img/shopping_cart_img-3.jpg" alt="men_in_jacket">
+                    </div>
+                    <div class="shopping_card_text">
+                        <p class="shopping_card_title">Mango People T-shirt</p>
+                        <div class="shopping_card_lists">
+                            <dl class="shopping_card_list">
+                                <dt class="key">Color:</dt>
+                                <dd class="meaning">Red</dd>
+
+                            </dl>
+                            <dl class="shopping_card_list">
+                                <dt class="key">Size:</dt>
+                                <dd class="meaning">Xll</dd>
+                            </dl>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="shopping_card_content-value">
+                    <p class="shopping_card_title shopping_card_title_value">$150</p>
+                    <input class="content-value-input" type="text" placeholder="2">
+                    <p class="shopping_card_title shopping_card_title_value">FREE</p>
+                    <p class="shopping_card_title shopping_card_title_value">$300</p>
+                    <button type="submit" class="deletion-btn deletion-btn_shopping_cart"></button>
+                </div>
+            </div>
+
+            <div class="shipping-separator shipping-separator_shopping_cart"></div>
+
+            <div class="shopping_cards">
+                <div class="shopping_card_content">
+                    <div class="shopping_card_content_img">
+                        <img src="img/shopping_cart_img-2.jpg" alt="men_in_jacket">
+                    </div>
+                    <div class="shopping_card_text">
+                        <p class="shopping_card_title">Mango People T-shirt</p>
+                        <div class="shopping_card_lists">
+                            <dl class="shopping_card_list">
+                                <dt class="key">Color:</dt>
+                                <dd class="meaning">Red</dd>
+
+                            </dl>
+                            <dl class="shopping_card_list">
+                                <dt class="key">Size:</dt>
+                                <dd class="meaning">Xll</dd>
+                            </dl>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="shopping_card_content-value">
+                    <p class="shopping_card_title shopping_card_title_value">$150</p>
+                    <input class="content-value-input" type="text" placeholder="2">
+                    <p class="shopping_card_title shopping_card_title_value">FREE</p>
+                    <p class="shopping_card_title shopping_card_title_value">$300</p>
+                    <button type="submit" class="deletion-btn deletion-btn_shopping_cart"></button>
+                </div>
+            </div>
+
+            <div class="shipping-separator shipping-separator_shopping_cart"></div>
+
+            <div class="shopping_cards">
+                <div class="shopping_card_content">
+                    <div class="shopping_card_content_img">
+                        <img src="img/shopping_cart_img-1.jpg" alt="men_in_jacket">
+                    </div>
+                    <div class="shopping_card_text">
+                        <p class="shopping_card_title">Mango People T-shirt</p>
+                        <div class="shopping_card_lists">
+                            <dl class="shopping_card_list">
+                                <dt class="key">Color:</dt>
+                                <dd class="meaning">Red</dd>
+
+                            </dl>
+                            <dl class="shopping_card_list">
+                                <dt class="key">Size:</dt>
+                                <dd class="meaning">Xll</dd>
+                            </dl>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="shopping_card_content-value">
+                    <p class="shopping_card_title shopping_card_title_value">$150</p>
+                    <input class="content-value-input" type="text" placeholder="2">
+                    <p class="shopping_card_title shopping_card_title_value">FREE</p>
+                    <p class="shopping_card_title shopping_card_title_value">$300</p>
+                    <button type="submit" class="deletion-btn deletion-btn_shopping_cart"></button>
+                </div>
+            </div>
+
+            <div class="shipping-separator shipping-separator_shopping_cart"></div>
+
+
+            <section class="delivery-info">
+                <div class="delivery-info__button_box">
+                    <button class="delivery-info__button" type="submit">cLEAR SHOPPING CART</button>
+                    <button class="delivery-info__button" type="submit">cONTINUE sHOPPING</button>
+                </div>
+
+                <div class="shipping-info-wrap">
+                    <div class="shipping-info">
+                        <h4 class="delivery-info-title">Shipping Adress</h4>
+                        <input class="shipping-info__input shipping-info__input_top" type="text"
+                            placeholder="Bangladesh">
+                        <input class="shipping-info__input" type="text" placeholder="State">
+                        <input class="shipping-info__input" type="text" placeholder="Postcode / Zip">
+                        <button class="delivery-info__button delivery-info__button_bottom" type="submit">get a
+                            quote</button>
+                    </div>
+
+                    <div class="discount-box">
+                        <h4 class="delivery-info-title">coupon discount</h4>
+                        <p class="delivery-info-paragraph">
+                            Enter your coupon code if you have one
+                        </p>
+                        <input class="shipping-info__input" type="text" placeholder="State">
+                        <button class="delivery-info__button delivery-info__button_bottom" type="submit">Apply
+                            coupon</button>
+                    </div>
+
+                    <div class="parchase_card">
+                        <p class="parchase_card_text">Sub total<span>$900</span></p>
+                        <p class="delivery-info-title_right">GRAND TOTAL<span>$900</span></p>
+                        <div class="shipping-separator_tiny"></div>
+                        <a class="parchase_card_link" href="#">
+                            <button class="delivery-info__button delivery-info__button_pink" type="submit">proceed to
+                                checkout
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+
+        </section>
     </main>
 
 
